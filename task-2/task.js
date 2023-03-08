@@ -41,7 +41,7 @@ const users = [{
  * Hint: Gunakan for/for-of.
  * Note: Ubah function menggunakan arrow function.
  */
-function all() {
+const all = () => {
     for (let i = 0; i < users.length; i++) {
         console.log(`name: ${users[i].name} `);
         console.log(`age: ${users[i].age} `);
